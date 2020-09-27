@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/home",
+        "_name": "_30cde3f3"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/login",
+        "_name": "_2db23a56"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/login",
+        "_name": "_2db23a56"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/profile",
+        "_name": "_14205215"
+      },
+      {
+        "path": "/settings",
+        "name": "settings ",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/settings",
+        "_name": "_012a0137"
+      },
+      {
+        "path": "/editor",
+        "name": "editor ",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/editor",
+        "_name": "_2f299b81"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article ",
+        "component": "/Users/zhangsong/Documents/personal/notes/Vue/realworld-nuxtjs/pages/article",
+        "_name": "_0a2ad53c"
+      }
+    ],
+    "_name": "_3af8753e"
+  }
+]
