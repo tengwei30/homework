@@ -1,0 +1,44 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+	margin: 20px auto 0;
+}
+
+.App .section {
+	min-width: 100px;
+	max-width: 600px;
+	min-height: 200px;
+	margin: 0 auto;
+	border: 10px double #cccccc;
+	text-align: center;
+}
+
+
+.App .section .section__title {
+	color: skyblue;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.App .section .section__apple {
+	display: flex;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.App .section .section__apple .section__apple__flex {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.App .section .section__apple .section__apple__flex span {
+	text-align: center;
+}
+.get__apple_btn {
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	margin-bottom: 20px;
+	border: 0;
+}
