@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul,li,ol {
+  list-style: none;
+}
+
+#root {
+  width: 400px;
+  padding: 30px 50px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  margin: 50px auto 0;
+}
+#root ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+#root ul li {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+#root ul li a {
+  color: #969696;
+  font-weight: bold;
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
