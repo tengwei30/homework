@@ -1,0 +1,28 @@
+.container {
+  width: 600px;
+  min-height: 200px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ullist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.ullist li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.ullist li:last-child {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
